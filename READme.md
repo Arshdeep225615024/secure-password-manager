@@ -86,8 +86,12 @@ npx mocha tests/unitTests/strengthController.test.js --exit
 link- https://excalidraw.com/#json=K9actp4xYhnBcFzWj5b-6,kzARM2Mc02vVYHN-mhEykw
 
 ### Build the Docker Image
-```bash
-docker build -t secure-password-manager .
+`Docker Instructions :
+•	How to build the image :- “docker build -t secure-password-manager .”
+•	How to run the container:- “docker run -p 3000:3000 secure-password-manager”
+•	Which port to access:- 3000 
+•	What the /api/student output should look like :- localhost/3000/api/student
+
 
 ## 📸 Screenshots
 - **Password Strength Meter & Breach Check Result** – proof of MVP features  
