@@ -13,6 +13,7 @@ COPY . .
 
 # Embed Student ID as an environment variable (replace with yours)
 ENV STUDENT_ID=22561504
+ENV NAME="Arshdeep Singh"
 
 # Expose app port
 EXPOSE 3000

@@ -9,15 +9,18 @@ const strengthRoutes = require("./routes/strengthRoutes");
 const app = express();
 
 
-connectDB();
+// connectDB();
 
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
 
 
-app.get("/student", (req, res) => {
-  res.json({ studentID: process.env.STUDENT_ID });
+app.get("/api/student", (req, res) => {
+  res.json({
+    name: "Arshdeep Singh Banga",       // replace with your real name
+    studentID: "225615024"  // replace with your real ID
+  });
 });
 
 
